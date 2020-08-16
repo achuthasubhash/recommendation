@@ -2,12 +2,14 @@
 
 new users or items can be described by their characteristics (content) and so relevant suggestions can be done for these new entities. 
 
-new user collabrative not work because not have previous  history to  give recommendation so use content based recommendation.
+new user collabrative not work because not have previous  history to  give recommendation so use content based recommendation to user.
 
 
 collaborative:rely on user-item interactions
 
 Content :User-user,Item-item interactions  
+
+algorithm recommends products which are similar to the ones that a user has liked in the past
 
 User-user:
 
