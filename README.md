@@ -2,9 +2,15 @@
 
 new users or items can be described by their characteristics (content) and so relevant suggestions can be done for these new entities. 
 
-new user collabrative not work because not have previous  history to  give recommendation
+new user collabrative not work because not have previous  history to  give recommendation so use content based recommendation.
+
+
+collaborative:rely on user-item interactions
+
+Content :User-user,Item-item interactions  
 
 User-user:
+
 1.identify users with the most similar “interactions profile” (nearest neighbours) in order to suggest items that are the most popular among these neighbours (and that are “new” to our user)
 
 2.“user-centred” as it represent users based on their interactions with items and evaluate distances between users
@@ -27,9 +33,6 @@ user-user method is based on the search of similar users in terms of interaction
 
 item-item method is based on the search of similar items in terms of user-item interactions.
 
-collaborative:rely on user-item interactions
-
-Content :User-user,Item-item
 
 Evaluation methods for recommender systems in two sets: 
 
